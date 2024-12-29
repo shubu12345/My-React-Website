@@ -11,7 +11,7 @@ const About = ({imgUrl}) => {
         <section className="container-about">
         <div className="profile">
             <div>
-            <img className='profile-img' src={imgUrl} altos='profile' />
+            <img className='profile-img' src={imgUrl} alt='profile' />
             <div className="social">
             <SocialIcons link='https://www.linkedin.com/in/shushind/' imgUrl={linkedin} altos='Linkdin' />
             <SocialIcons link='https://www.instagram.com/_shubu_s/' imgUrl={instagram} altos='instagram'/>

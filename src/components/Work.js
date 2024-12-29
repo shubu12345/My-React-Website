@@ -5,7 +5,7 @@ const Work = ({imgUrl, id}) => {
             <div className='project'>
                 <div className='project-img' draggable='false'>
                     <div className='img-pop' >
-                        <a href='https://shubu12345.github.io/Simon-game/' target='_blank'>
+                        <a href='https://shubu12345.github.io/Simon-game/' target='_blank' rel="noreferrer">
                         <img id={id} src={imgUrl} alt='project-img'/></a>
                     </div>
                 </div>
