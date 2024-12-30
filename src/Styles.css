@@ -1,251 +1,248 @@
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /*------------------ Header Css -----------------------------*/
 
-.container-header{
-    background: url("./assets/images/clouds.png");
-    background-size: contain;
-    background-repeat: repeat;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
+.container-header {
+  background: url("./assets/images/clouds.png");
+  background-size: contain;
+  background-repeat: repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
 }
 .container-header img {
-    width: 250px;
-    height: 250px;
-   }
+  width: 250px;
+  height: 250px;
+}
 
-.myname{
-    font-family: 'Sacramento',cursive !important;
+.myname {
+  font-family: "Sacramento", cursive !important;
   font-weight: 100;
   font-style: normal;
-    color: #fff;
-    font-size: 2.8rem;
-    text-transform: none;
+  color: #fff;
+  font-size: 2.8rem;
+  text-transform: none;
 }
 
-.text-modify{
-    font-family: 'ProximaNova';
-    color: #fff;
-    font-size: 2.1rem;
-    font-weight: normal;
-    padding: 10px;
+.text-modify {
+  font-family: "ProximaNova";
+  color: #fff;
+  font-size: 2.1rem;
+  font-weight: normal;
+  padding: 10px;
 }
 
-.dynamic{
-    font-size: 2.4rem;
-    font-weight: bold;
+.dynamic {
+  font-size: 2.4rem;
+  font-weight: bold;
 }
 
-.work-btn{
-    padding: 14px;
-    margin-top: 20px;
-    border-radius: 25px;
-    background: #66000000;
-    border: 1px solid #fff;
-    font-size: 1.4rem;     
-    color: #fff;
+.work-btn {
+  padding: 14px;
+  margin-top: 20px;
+  border-radius: 25px;
+  background: #66000000;
+  border: 1px solid #fff;
+  font-size: 1.4rem;
+  color: #fff;
 }
 
-.work-btn:hover{
-background: #fff;
-color: #000;
+.work-btn:hover {
+  background: #fff;
+  color: #000;
 }
 
 /*-------------------------- Header Css Ends ----------------------------*/
 
 /*---------------------------- About Css Starts---------------------------*/
 
-.container-about{
-    display: flex;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    padding-top: 10px;
-    
+.container-about {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding-top: 10px;
 }
 
-.profile{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    background: #fff;
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background: #fff;
 }
-.text-section{
-    width: 100%;
-    height: auto;
-    background: #fff;
-}
-
-.profile-img{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    padding: 20px;
+.text-section {
+  width: 100%;
+  height: auto;
+  background: #fff;
 }
 
-.text-section h3{
-    font-size: 2.6rem;
-    padding: 10px;
-    font-family: "Roboto", serif;
-    font-weight: 300;
-    font-style: bold;
+.profile-img {
+  width: 350px;
+  height: 300px;
+  border-radius: 50%;
+  padding: 20px;
 }
 
-.text-section p{
-    /* line-height: 15px; */
-    font-size: 1.2rem;
-    padding: 10px;
-    font-family: "Roboto", serif;
-    font-weight: 200;
-    font-style: normal;
-}
-.social{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+.text-section h3 {
+  font-size: 2.6rem;
+  padding: 10px;
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: bold;
 }
 
-.social-icons img{
-    display: inline-flex;
-    width: 50px;
-    height: 50px;
-    padding: 3px;
+.text-section p {
+  /* line-height: 15px; */
+  font-size: 1.2rem;
+  padding: 10px;
+  font-family: "Roboto", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.social {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons img {
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  padding: 3px;
 }
 
 /*---------------------------- About css ends-------------------------------*/
 
 /*---------------------------- Download Css ------------------------------*/
 
-.download{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-    background: rgb(30, 94, 94);
-    margin: 0 10px;
+.download {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background: rgb(30, 94, 94);
+  margin: 0 10px;
 }
-.download p{
-font-size: 1.4rem;
-padding: 20px;
-color: #fff;
-font-family: "Roboto", serif;
+.download p {
+  font-size: 1.4rem;
+  padding: 20px;
+  color: #fff;
+  font-family: "Roboto", serif;
 }
-.download button{
-    width: 80px;
-    height: 80px;
+.download button {
+  width: 80px;
+  height: 80px;
 }
 
-.download button img{
-    width: 80px;
-    height: 80px;
-    cursor: pointer;
+.download button img {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
 }
 
 /*----------------------------- Download Css ends ----------------------------*/
 
-/*----------------------------- Latest Work Css -------------------------------*/
+/*----------------------------- Latest Work Css -----------------------------*/
 
-.work-section{
-    margin: 0 auto;
-    position: relative;
+.work-section {
+  margin: 0 auto;
+  position: relative;
 }
-.title-work h2{
-    font-size: 2.1rem;
-    margin: 0 auto;
-    text-align: center;
-    border: 2px solid rgb(30, 94, 94);
-    border-top: 0;
-    color: rgb(30, 94, 94);
-    width: max-content;
-    padding: 10px;
-    border-radius: 0 0 8px 8px;
-    z-index: 5;
+.title-work h2 {
+  font-size: 2.1rem;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid rgb(30, 94, 94);
+  border-top: 0;
+  color: rgb(30, 94, 94);
+  width: max-content;
+  padding: 10px;
+  border-radius: 0 0 8px 8px;
+  z-index: 5;
 }
 
-.project{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 10px;
-    height: auto;
-    padding: 30px;
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  height: auto;
+  padding: 30px;
 }
-.project-img{
-/* border-right: 1px solid red;
+.project-img {
+  /* border-right: 1px solid red;
 border-left: 1px solid red; */
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.project-img img{
-    width: 300px;
-    height: 250px;
-    padding: 10px;
+.project-img img {
+  width: 300px;
+  height: 250px;
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
 }
-#p1:hover{
-    width: 350px;
-    height: 300px;
-}
-
-#p2:hover{
-    width: 350px;
-    height: 300px;
+#p1:hover {
+  transform: scale(1.2);
 }
 
-.project-details{
-    width: 100%;
-    justify-content: center;
-    padding-left: 40px;
-}
-.project-details h3{
-    color: #fc815c;
-    font-family: "Roboto", serif;
-    font-size: 1.8rem;
-    padding: 5px;
-}
-.project-details span{
-    font-size: 1.4rem;
-    padding: 5px;
-    font-style: normal;
-    font-weight: 400;
-    color: #fc815c;
-    font-family: "Roboto", serif;
-}
-.project-details p{
-    font-family: "Roboto", serif;
-    font-style: normal;
-    padding-top: 16px;
+#p2:hover {
+  transform: scale(1.1);
 }
 
-ul{
-    list-style: none;
-    padding-top: 30px;
+.project-details {
+  width: 100%;
+  justify-content: center;
+  padding-left: 40px;
 }
-ul li{
-    display: inline-block;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid black;
-    border-radius: 12px;
-    box-shadow: 0 0 4px #000;
+.project-details h3 {
+  color: #fc815c;
+  font-family: "Roboto", serif;
+  font-size: 1.8rem;
+  padding: 5px;
+}
+.project-details span {
+  font-size: 1.4rem;
+  padding: 5px;
+  font-style: normal;
+  font-weight: 400;
+  color: #fc815c;
+  font-family: "Roboto", serif;
+}
+.project-details p {
+  font-family: "Roboto", serif;
+  font-style: normal;
+  padding-top: 16px;
+}
+
+ul {
+  list-style: none;
+  padding-top: 30px;
+}
+ul li {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 12px;
+  box-shadow: 0 0 4px #000;
 }
 
 /*----------------------------- Latest Work Css ends ----------------------------*/
@@ -253,64 +250,62 @@ ul li{
 /*------------------------- Media Query CSS Starts --------------------------------
 ----------------------------------------------------------------------------------*/
 
-
-@media screen and (max-width:600px) {
-/*--------------------- Header section handled -----------------------------------*/   
-.container-header{
+@media screen and (max-width: 600px) {
+  /*--------------------- Header section handled -----------------------------------*/
+  .container-header {
     height: 450px;
-} 
-    .container-header img {
-        width: 110px;
-        height: 110px;
-       } 
-       .myname{
-        font-size: 1.9rem;
-        font-weight: 150;
-       }
-       .dynamic{
-        font-size: 1.6rem;
-       }
-/*--------------------------- Header section end --------------------------------------*/
+  }
+  .container-header img {
+    width: 110px;
+    height: 110px;
+  }
+  .myname {
+    font-size: 1.9rem;
+    font-weight: 150;
+  }
+  .dynamic {
+    font-size: 1.6rem;
+  }
+  /*--------------------------- Header section end --------------------------------------*/
 
-/*---------------------------- About section start -----------------------------------*/
-.container-about{
+  /*---------------------------- About section start -----------------------------------*/
+  .container-about {
     display: grid;
     grid-template-columns: auto;
     /* height: 500px; */
     margin: 20px;
     padding: 0;
-}
-.profile-img{
+  }
+  .profile-img {
     width: 250px;
     height: 250px;
     border-radius: 50%;
     padding: 20px;
-}
-.text-section h3{
+  }
+  .text-section h3 {
     text-align: center;
-}
+  }
 
-/*---------------------------- About section ends ------------------------------------*/
+  /*---------------------------- About section ends ------------------------------------*/
 
-.download p{
+  .download p {
     font-size: 20px;
-}
+  }
 
-.download button{
+  .download button {
     width: 50px;
     height: 50px;
-}
+  }
 
-.download button img{
+  .download button img {
     width: 50px;
     height: 50px;
     cursor: pointer;
-}
+  }
 
+  /*---------------------------- Latest Work Css --------------------------------------*/
 
-/*---------------------------- Latest Work Css --------------------------------------*/
-
-.project{
+  .project {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -318,8 +313,8 @@ ul li{
     margin: 0 10px;
     height: auto;
     padding: 30px;
-}
-.project-1{
+  }
+  .project-1 {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -327,9 +322,7 @@ ul li{
     margin: 0 10px;
     height: auto;
     padding: 30px;
+  }
+
+  /*---------------------------- Latest Work Css ends -----------------------------------*/
 }
-
-/*---------------------------- Latest Work Css ends -----------------------------------*/
-}
-
-
