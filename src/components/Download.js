@@ -1,6 +1,7 @@
+import repdf from '../assets/ShubhamShindeResume.pdf';
 const Download = ({imgUrl}) => {
     const downloadFileAtUrl = () => {
-        fetch("Shubham_Shinde_Resume.pdf")
+        fetch(repdf)
         .then((res) => {
             res.blob().then((blob) => {
                 const fileUrl = window.URL.createObjectURL(blob);

@@ -1,6 +1,7 @@
 import linkedin from '../assets/images/linkedin.png';
 import instagram from '../assets/images//instagram.png';
 import twitter from '../assets/images/twitter.png';
+import gmail from '../assets/images/gmail.png';
 import resume from '../assets/images/resume.png';
 import SocialIcons from './SocialIcons.js';
 
@@ -16,6 +17,7 @@ const About = ({imgUrl}) => {
             <SocialIcons link='https://www.linkedin.com/in/shushind/' imgUrl={linkedin} altos='Linkdin' />
             <SocialIcons link='https://www.instagram.com/_shubu_s/' imgUrl={instagram} altos='instagram'/>
             <SocialIcons link='https://x.com/i/flow/login' imgUrl={twitter} altos='twitter'/>
+            <SocialIcons link='mailto:shubhamnarayanshinde23@gmail.com' imgUrl={gmail} altos='gmail'/>
             </div>
             </div>
         </div>
