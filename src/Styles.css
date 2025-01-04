@@ -126,7 +126,104 @@
   padding: 3px;
 }
 
+.about-btn {
+  padding: 10px;
+}
+
+.about-btn button {
+  width: 130px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.about-btn button:hover {
+  border-radius: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
 /*---------------------------- About css ends-------------------------------*/
+
+/*----------------------------- Popup Styling --------------------------------*/
+.modal {
+  width: 80%;
+  height: 700px;
+  background-color: #191919;
+  margin: auto;
+}
+
+.pop-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.text-container {
+  width: 100%;
+  padding: 30px;
+  color: #fff;
+}
+
+.text-container h3 {
+  padding: 10px 0 10px 0;
+  font-size: 1.6rem;
+  color: #1788ae;
+}
+
+.text-container p {
+  color: #fff;
+  font-size: 14px;
+}
+
+.text-container ul {
+  padding-top: 15px;
+  font-size: 14px;
+}
+
+.text-container li {
+  text-align: center;
+  padding: 3px;
+}
+
+.text-container h2 {
+  color: #1788ae;
+  padding-top: 30px;
+}
+
+.img-container {
+  display: flex;
+  width: 100%;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.mern-stack {
+  display: flex;
+  padding-top: 40px;
+}
+
+.mongo {
+  text-align: center;
+  margin-right: 25px;
+}
+
+.express {
+  text-align: center;
+  margin-right: 25px;
+}
+
+.react {
+  text-align: center;
+  margin-right: 25px;
+}
+.node {
+  text-align: center;
+  margin-right: 25px;
+}
+/*------------------------------Popup styling ends --------------------------*/
 
 /*---------------------------- Download Css ------------------------------*/
 
@@ -288,6 +385,21 @@ ul li {
     text-align: center;
   }
 
+  .about-btn {
+    text-align: center;
+  }
+
+  .about-btn button {
+    width: 150px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+  /*------------- Popup image ----------------- */
+  .img-container img {
+    display: none;
+  }
+
   /*---------------------------- About section ends ------------------------------------*/
 
   .download p {
@@ -327,4 +439,11 @@ ul li {
   }
 
   /*---------------------------- Latest Work Css ends -----------------------------------*/
+}
+
+@media screen and (max-width: 700px) {
+  /*------------- Popup image ----------------- */
+  .img-container img {
+    display: none;
+  }
 }
