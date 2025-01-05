@@ -4,6 +4,7 @@ import twitter from "../assets/images/twitter.png";
 import gmail from "../assets/images/gmail.png";
 import resume from "../assets/images/resume.png";
 import SocialIcons from "./SocialIcons.js";
+import coderboyimage from '../assets/images/coder-imgae-bg.png'
 
 import Download from "./Download.js";
 import Popup from "reactjs-popup";
@@ -149,7 +150,7 @@ const About = ({ imgUrl }) => {
                     </div>
                     <div className="img-container">
                       <img
-                        src="https://anuragsinghbam.com/images/coder.svg"
+                        src={coderboyimage}
                         alt="coder"
                       />
                     </div>

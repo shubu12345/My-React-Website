@@ -147,8 +147,8 @@
 
 /*----------------------------- Popup Styling --------------------------------*/
 .modal {
-  width: 80%;
-  height: 700px;
+  width: 90%;
+  height: auto;
   background-color: #191919;
   margin: auto;
 }
@@ -445,5 +445,55 @@ ul li {
   /*------------- Popup image ----------------- */
   .img-container img {
     display: none;
+  }
+}
+
+/*---------------------- small to medium size device ------------------- */
+
+@media screen and (max-width: 430px){
+.pop-container{
+  padding: 5px;
+}
+.text-container{
+  padding: 15px;
+}
+
+}
+
+@media screen and (max-width: 375px){
+  .text-container{
+    padding: 5px;
+  }
+}
+
+
+@media screen and (max-width: 320px){
+
+
+/*----------------- download icon -------------------*/
+.download p {
+  font-size: 16px;
+}
+
+  .modal{
+    width: 100%;
+  }
+  .pop-container{
+    padding: 0;
+  }
+  .text-container{
+    padding: 3px;
+  }
+  .text-container p{
+    font-family: 12px;
+  }
+  .text-container ul{
+    font-size: 12px;
+  }
+  ul li{
+    padding: 5px;
+  }
+  .node{
+    margin-right: 0;
   }
 }
