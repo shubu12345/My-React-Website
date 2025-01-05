@@ -11,6 +11,7 @@ import About from "./About.js";
 import Work from "./Work.js";
 import Title from "./Title.js";
 import Support from "./Support.js";
+import Form from "./Form.js";
 
 const Home = () => {
   return (
@@ -44,6 +45,7 @@ const Home = () => {
         l4="#Figma"
         imgUrl={project1}
       />
+      <Form />
     </>
   );
 };
