@@ -4,7 +4,7 @@ import twitter from "../assets/images/twitter.png";
 import gmail from "../assets/images/gmail.png";
 import resume from "../assets/images/resume.png";
 import SocialIcons from "./SocialIcons.js";
-import coderboyimage from '../assets/images/coder-imgae-bg.png'
+import coderboyimage from "../assets/images/coder-imgae-bg.png";
 
 import Download from "./Download.js";
 import Popup from "reactjs-popup";
@@ -44,10 +44,10 @@ const About = ({ imgUrl }) => {
           <h3>About Me</h3>
           <p>
             Hi, I'm <strong>Shubham Shinde</strong>, a passionate Web Developer
-            with hands-on experience in Computer Science and Engineering. I
-            specialize in Full Stack Development and Web Engineering, and I’m
-            currently exploring new opportunities to apply my skills and grow
-            further in my career.
+            with hands-on experience in Front-End Devlopment. I specialize in
+            Full Stack Development and Web Engineering, and I’m currently
+            exploring new opportunities to apply my skills and grow further in
+            my career.
             <br />
             <br />
             With a strong foundation in web technologies and a commitment to
@@ -87,7 +87,8 @@ const About = ({ imgUrl }) => {
                       </ul>
                       <h2>MERN STACK</h2>
                       <div className="mern-stack">
-                        <div className="mongo">
+                        <div className="mongo tooltip">
+                          <span class="tooltiptext mongo-icon">MongoDB</span>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="50"
@@ -104,7 +105,16 @@ const About = ({ imgUrl }) => {
                           </svg>
                           <h2>M</h2>
                         </div>
-                        <div className="express">
+                        <div className="express tooltip">
+                          <span
+                            class="tooltiptext express-icon"
+                            style={{
+                              backgroundColor: "#fff",
+                              color: "#000",
+                            }}
+                          >
+                            Express
+                          </span>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 32 32"
@@ -117,7 +127,8 @@ const About = ({ imgUrl }) => {
                           </svg>
                           <h2>E</h2>
                         </div>
-                        <div className="react">
+                        <div className="react tooltip">
+                          <span class="tooltiptext react-icon">React.Js</span>
                           <svg
                             width="50"
                             height="50"
@@ -131,7 +142,8 @@ const About = ({ imgUrl }) => {
                           </svg>
                           <h2>R</h2>
                         </div>
-                        <div className="node">
+                        <div className="node tooltip">
+                          <span class="tooltiptext node-icon">Node.Js</span>
                           <svg
                             width="50"
                             height="50"
@@ -149,10 +161,7 @@ const About = ({ imgUrl }) => {
                       </div>
                     </div>
                     <div className="img-container">
-                      <img
-                        src={coderboyimage}
-                        alt="coder"
-                      />
+                      <img src={coderboyimage} alt="coder" />
                     </div>
                     <div className="close-btn">
                       <button onClick={() => close()}>❌</button>

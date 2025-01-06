@@ -1,11 +1,9 @@
 import Header from "./Header.js";
 import "../Styles.css";
 import airoplne from "../assets/images/plane.gif";
-// import profile from "./assets/images/shubham.jpeg";
 import ss from "../assets/images/profile.png";
 import project1 from "../assets/images/project1.png";
 import project2 from "../assets/images/project2.png";
-// import project3 from "../assets/images/project3.png";
 import project from "../assets/images/img-pro.png";
 import About from "./About.js";
 import Work from "./Work.js";

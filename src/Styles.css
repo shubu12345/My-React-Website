@@ -420,6 +420,153 @@ button {
 }
 /*----------------------------- Form Css ends ----------------------------*/
 
+/*----------------------------- tooltip Css start -----------------------*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 1px dotted #000; */
+  font-size: 14px;
+}
+
+.tooltip .mongo-icon {
+  visibility: hidden;
+  width: 100px;
+  background-color: #47a248;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 105%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip .mongo-icon::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #47a248 transparent transparent transparent;
+}
+
+.mongo h2:hover {
+  color: #47a248;
+}
+
+.tooltip:hover .mongo-icon {
+  visibility: visible;
+}
+/*----------- express icons ---------------- */
+.tooltip .express-icon::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+}
+
+.tooltip .express-icon {
+  visibility: hidden;
+  width: 100px;
+  background-color: #47a248;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 105%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .express-icon {
+  visibility: visible;
+}
+
+.express h2:hover {
+  color: #fff;
+}
+
+/*----------- React icons ---------------- */
+.tooltip .react-icon::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #61dafb transparent transparent transparent;
+}
+
+.tooltip .react-icon {
+  visibility: hidden;
+  width: 100px;
+  background-color: #61dafb;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 105%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .react-icon {
+  visibility: visible;
+}
+
+.react h2:hover {
+  color: #61dafb;
+}
+
+/*------------------ Javascript icon -----------------*/
+.tooltip .node-icon::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #8cc84b transparent transparent transparent;
+}
+
+.tooltip .node-icon {
+  visibility: hidden;
+  width: 100px;
+  background-color: #8cc84b;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 105%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .node-icon {
+  visibility: visible;
+}
+
+.node h2:hover {
+  color: #8cc84b;
+}
+/*----------------------------- tooltip Css ends --------------------------*/
+
 /*------------------------- Media Query CSS Starts --------------------------------
 ----------------------------------------------------------------------------------*/
 
@@ -533,7 +680,7 @@ button {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 410px) {
   .text-container {
     padding: 5px;
   }
