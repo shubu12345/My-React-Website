@@ -348,24 +348,24 @@ ul li {
 
 /*----------------------------- Form Css Start ----------------------------*/
 
-.contact{
-display: block;
-border: 2px solid rgb(30, 94, 94);
-margin: 0 auto;
-width: max-content;
-border-radius: 8px;
+.contact {
+  display: block;
+  border: 2px solid rgb(30, 94, 94);
+  margin: 0 auto;
+  width: max-content;
+  border-radius: 8px;
 }
 
-.contact h2{
+.contact h2 {
   padding: 20px;
 }
 
-.form-container{
+.form-container {
   display: flex;
   padding-top: 20px;
 }
 
-.form-img{
+.form-img {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -373,12 +373,12 @@ border-radius: 8px;
   padding: 20px;
 }
 
-.form-img img{
+.form-img img {
   width: 250px;
   height: 250px;
 }
 
-.form-contact{
+.form-contact form {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -386,38 +386,39 @@ border-radius: 8px;
   padding: 20px;
 }
 
-.form-contact input{
+.form-contact input {
   padding: 10px;
   outline: none;
   border: 1px solid black;
 }
 
-.form-contact input, textarea, button{
+.form-contact input,
+textarea,
+button {
   margin: 10px;
 }
 
-.form-contact button{
+.form-contact button {
   padding: 10px;
   background-color: #000;
   color: #fff;
 }
 
-.form-contact textarea{
+.form-contact textarea {
   padding: 15px;
 }
 
-.form-contact label{
+.form-contact label {
   padding: 6px;
 }
 
-.user{
+.user {
   width: 25px;
   height: 25px;
   margin-top: 4px;
   margin-right: 5px;
 }
 /*----------------------------- Form Css ends ----------------------------*/
-
 
 /*------------------------- Media Query CSS Starts --------------------------------
 ----------------------------------------------------------------------------------*/
@@ -523,83 +524,78 @@ border-radius: 8px;
 
 /*---------------------- small to medium size device ------------------- */
 
-@media screen and (max-width: 430px){
-.pop-container{
-  padding: 5px;
-}
-.text-container{
-  padding: 15px;
-}
-
-}
-
-@media screen and (max-width: 375px){
-  .text-container{
+@media screen and (max-width: 430px) {
+  .pop-container {
     padding: 5px;
   }
-  .modal{
+  .text-container {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .text-container {
+    padding: 5px;
+  }
+  .modal {
     width: 95%;
   }
 }
 
+@media screen and (max-width: 320px) {
+  /*----------------- download icon -------------------*/
+  .download p {
+    font-size: 16px;
+  }
 
-@media screen and (max-width: 320px){
-
-
-/*----------------- download icon -------------------*/
-.download p {
-  font-size: 16px;
-}
-
-  .modal{
+  .modal {
     width: 100%;
   }
-  .pop-container{
+  .pop-container {
     padding: 0;
   }
-  .text-container{
+  .text-container {
     padding: 3px;
   }
-  .text-container p{
+  .text-container p {
     font-family: 12px;
   }
-  .text-container ul{
+  .text-container ul {
     font-size: 12px;
   }
-  ul li{
+  ul li {
     padding: 5px;
   }
-  .node{
+  .node {
     margin-right: 0;
   }
 }
 
 /*===================== form css ============================*/
-@media screen and (max-width:600px){
-  .form-container{
+@media screen and (max-width: 600px) {
+  .form-container {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
   }
 
-  .form-img img{
+  .form-img img {
     width: 160px;
     height: 160px;
   }
 }
 
-@media screen and (min-width:600px ) and (max-width:950px){
-  .form-container{
+@media screen and (min-width: 600px) and (max-width: 950px) {
+  .form-container {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
   }
 
-  .form-img img{
+  .form-img img {
     width: 250px;
     height: 250px;
   }
 }
-
 
 /*======================= form css ends ========================*/
