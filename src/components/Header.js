@@ -1,8 +1,28 @@
 import "../Styles.css";
+import moonIcon from "../assets/images/moon-icon.png";
+// import darkBg from "../assets/images/dark-night.png";
 import { Typewriter } from "react-simple-typewriter";
 const Header = ({ imgUrl }) => {
+  function changeTheme() {
+    document.body.classList.toggle("dark");
+    document.querySelector(".text-section").classList.toggle("dark");
+    document.querySelector(".profile").classList.toggle("dark");
+    document.querySelector(".container-header").classList.toggle("dark");
+    document.querySelector(".light").classList.toggle("dark");
+    document.querySelector(".chnage-Icon").classList.toggle("dark");
+  }
+
   return (
     <>
+      <div className="moon-icon">
+        <img
+          className="chnage-Icon"
+          onClick={changeTheme}
+          src={moonIcon}
+          alt="moon-icon"
+        />
+        <span className="light">Dark Mode</span>
+      </div>
       <section className="container-header">
         <div className="hero-img">
           <img src={imgUrl} alt="profile" />

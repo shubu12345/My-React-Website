@@ -7,9 +7,49 @@
   scroll-behavior: smooth;
 }
 
+/*---------------- dark mode --------------*/
 body.dark {
   background-color: #192734;
   color: #fff;
+}
+
+.text-section.dark {
+  background-color: #192734;
+}
+
+.profile.dark {
+  background-color: #192734;
+}
+
+.moon-icon {
+  display: flex;
+  padding-right: 20px;
+  justify-content: right;
+  align-items: right;
+  cursor: pointer;
+}
+
+.moon-icon img {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.container-header.dark {
+  background: url("./assets/images/dark-night.png");
+  background-size: cover;
+}
+.light.dark {
+  visibility: hidden;
+  position: relative;
+}
+
+.light.dark::after {
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "Light Mode";
+  width: 100px;
 }
 
 /*------------------ Header Css -----------------------------*/

@@ -1,6 +1,7 @@
 import Header from "./Header.js";
 import "../Styles.css";
-import airoplne from "../assets/images/plane.gif";
+// import airoplne from "../assets/images/plane.gif";
+import airoplaneNight from "../assets/images/plane-night.gif";
 import ss from "../assets/images/profile.png";
 import project1 from "../assets/images/project1.png";
 import project2 from "../assets/images/project2.png";
@@ -14,7 +15,7 @@ import Form from "./Form.js";
 const Home = () => {
   return (
     <>
-      <Header imgUrl={airoplne} />
+      <Header imgUrl={airoplaneNight} />
       <About imgUrl={ss} />
       {/* <Download imgUrl={resume}/> */}
       <Title />
