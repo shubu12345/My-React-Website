@@ -662,10 +662,13 @@ button {
   /*---------------------------- Latest Work Css ends -----------------------------------*/
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 430px) and (max-width: 460px) {
   /*------------- Popup image ----------------- */
   .img-container img {
     display: none;
+  }
+  .text-container {
+    padding: 20px;
   }
 }
 
