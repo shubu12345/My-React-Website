@@ -7,6 +7,11 @@
   scroll-behavior: smooth;
 }
 
+body.dark {
+  background-color: #192734;
+  color: #fff;
+}
+
 /*------------------ Header Css -----------------------------*/
 
 .container-header {
