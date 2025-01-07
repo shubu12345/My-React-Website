@@ -44,17 +44,17 @@ const About = ({ imgUrl }) => {
           <h3>About Me</h3>
           <p>
             Hi, I'm <strong>Shubham Shinde</strong>, a passionate Web Developer
-            with hands-on experience in Front-End Devlopment. I specialize in
-            Full Stack Development and Web Engineering, and I’m currently
-            exploring new opportunities to apply my skills and grow further in
-            my career.
+            with hands-on experience in Front-End Development and a focus on
+            Full Stack Development and Web Engineering. I’m always eager to
+            embrace new opportunities to apply my skills, learn, and grow in my
+            career.
             <br />
             <br />
-            With a strong foundation in web technologies and a commitment to
-            delivering high-quality, impactful work, I’m always excited to take
-            on fresh challenges. Let’s connect on LinkedIn or grab a virtual
-            coffee – I’d love to discuss how we can collaborate and build
-            something amazing together!
+            With a solid foundation in modern web technologies and a dedication
+            to delivering impactful solutions, I thrive on tackling exciting
+            challenges. Let’s connect on LinkedIn or chat over a virtual
+            coffee—I’d love to explore how we can collaborate and create
+            something exceptional together!
           </p>
           <div className="about-btn">
             <Popup trigger={<button>About Me</button>} modal nested>
@@ -64,10 +64,14 @@ const About = ({ imgUrl }) => {
                     <div className="text-container">
                       <h3>About Me</h3>
                       <p>
-                        I help business owners and busy web developers to design
-                        & develop creative websites that fits their vision and
-                        attracts the visitors to stay for ever. Technologies and
-                        tools that I use to create such awesome websites.
+                        I am a Front-End Developer skilled in React, HTML, CSS,
+                        JavaScript, jQuery, and Tailwind CSS. I specialize in
+                        building responsive, user-friendly interfaces with clean
+                        code and modern design. Using React, I create scalable
+                        components, while JavaScript and jQuery add dynamic
+                        functionality. With Tailwind CSS, I ensure efficient and
+                        visually appealing styling, delivering seamless user
+                        experiences across devices and browsers.
                       </p>
                       <ul>
                         <li>#react.js</li>
@@ -80,6 +84,7 @@ const About = ({ imgUrl }) => {
                         <li>#mongoDB</li>
                         <li>#tailwind</li>
                         <li>#mongoose</li>
+                        <li>#JQuery</li>
                         <li>#figma</li>
                         <li>#git</li>
                         <li>#github</li>
