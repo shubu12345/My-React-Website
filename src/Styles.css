@@ -25,13 +25,19 @@ body.dark {
   display: flex;
   padding-right: 20px;
   justify-content: right;
-  align-items: right;
+  align-items: center;
   cursor: pointer;
 }
 
 .moon-icon img {
   width: 25px !important;
   height: 25px !important;
+}
+
+.moon-icon span {
+  box-shadow: 2px 2px 2px #000;
+  border-radius: 8px;
+  padding: 2px;
 }
 
 .container-header.dark {
@@ -737,7 +743,39 @@ button {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 380px) {
+  .modal {
+    width: 100%;
+  }
+
+  .text-container h3 {
+    font-size: 1.2rem;
+  }
+
+  .text-container p {
+    font-size: 12px;
+  }
+  .text-container ul {
+    font-size: 12px;
+  }
+  .mongo {
+    margin-right: 15px;
+  }
+
+  .express {
+    text-align: center;
+    margin-right: 15px;
+  }
+
+  .react {
+    text-align: center;
+    margin-right: 15px;
+  }
+  .node {
+    text-align: center;
+    margin-right: 20px;
+  }
+
   /*----------------- download icon -------------------*/
   .download p {
     font-size: 16px;
