@@ -14,13 +14,8 @@ const Header = ({ imgUrl }) => {
 
   return (
     <>
-      <div className="moon-icon">
-        <img
-          className="chnage-Icon"
-          onClick={changeTheme}
-          src={moonIcon}
-          alt="moon-icon"
-        />
+      <div onClick={changeTheme} className="moon-icon">
+        <img className="chnage-Icon" src={moonIcon} alt="moon-icon" />
         <span className="light">Dark Mode</span>
       </div>
       <section className="container-header">
