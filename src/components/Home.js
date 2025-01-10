@@ -12,11 +12,11 @@ import Title from "./Title.js";
 import Support from "./Support.js";
 import Form from "./Form.js";
 
-const Home = () => {
+const Home = ({ theme }) => {
   return (
     <>
-      <Header imgUrl={airoplaneNight} />
-      <About imgUrl={ss} />
+      <Header theme={theme} imgUrl={airoplaneNight} />
+      <About theme={theme} imgUrl={ss} />
       {/* <Download imgUrl={resume}/> */}
       <Title />
       <Work

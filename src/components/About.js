@@ -9,11 +9,12 @@ import coderboyimage from "../assets/images/coder-imgae-bg.png";
 import Download from "./Download.js";
 import Popup from "reactjs-popup";
 
-const About = ({ imgUrl }) => {
+const About = ({ imgUrl, theme }) => {
+  const [isDark] = theme;
   return (
     <>
       <section className="container-about">
-        <div className="profile">
+        <div className={`profile ${isDark ? "dark" : ""}`}>
           <div>
             <img className="profile-img" src={imgUrl} alt="profile" />
             <div className="social">
@@ -40,7 +41,7 @@ const About = ({ imgUrl }) => {
             </div>
           </div>
         </div>
-        <div className="text-section">
+        <div className={`text-section ${isDark ? "dark" : ""}`}>
           <h3>About Me</h3>
           <p>
             Hi, I'm <strong>Shubham Shinde</strong>, a passionate Web Developer
