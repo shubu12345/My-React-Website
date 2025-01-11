@@ -276,6 +276,9 @@
   text-align: center;
   margin-right: 25px;
 }
+
+
+
 /*------------------------------Popup styling ends --------------------------*/
 
 /*---------------------------- Download Css ------------------------------*/
@@ -344,7 +347,7 @@ border-left: 1px solid red; */
   align-items: center;
   padding: 20px;
 }
-.project-img img {
+.img-pop img {
   width: 300px;
   height: 250px;
   padding: 10px;

@@ -8,7 +8,7 @@ const Footer = ({theme}) => {
     const [isDark] = theme;
     return (
         <>
-        <p style={{textAlign:'center'}}>Shubham Shinde © 2025</p>
+        <p style={{textAlign:'center',paddingTop:40}}>Shubham Shinde © 2025</p>
         <div className="footer-logo">
             <img src={isDark? darkLogo:logo} alt="shubham shinde" />
         </div>
