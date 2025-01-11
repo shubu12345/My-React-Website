@@ -12,6 +12,7 @@ const Footer = ({theme}) => {
         <div className="footer-logo">
             <img src={isDark? darkLogo:logo} alt="shubham shinde" />
         </div>
+        <p style={{textAlign:'center',padding:5}}>Made With ❤️ in India</p>
         <div className="footer-social">
         <SocialIcons link="https://www.linkedin.com/in/shushind/" imgUrl={linkedin}/>
         <SocialIcons link="https://x.com/i/flow/login" imgUrl={twitter}/>
