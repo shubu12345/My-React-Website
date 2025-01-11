@@ -174,9 +174,9 @@
 
 .social-icons img {
   display: inline-flex;
-  width: 50px;
-  height: 50px;
-  padding: 3px;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
 }
 
 .about-btn {
@@ -399,79 +399,6 @@ ul li {
 
 /*----------------------------- Latest Work Css ends ----------------------------*/
 
-/*----------------------------- Form Css Start ----------------------------*/
-
-.contact {
-  display: block;
-  border: 2px solid rgb(30, 94, 94);
-  margin: 0 auto;
-  width: max-content;
-  border-radius: 8px;
-}
-
-.contact h2 {
-  padding: 20px;
-}
-
-.form-container {
-  display: flex;
-  padding-top: 20px;
-}
-
-.form-img {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-.form-img img {
-  width: 250px;
-  height: 250px;
-}
-
-.form-contact form {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  padding: 20px;
-}
-
-.form-contact input {
-  padding: 10px;
-  outline: none;
-  border: 1px solid black;
-}
-
-.form-contact input,
-textarea,
-button {
-  margin: 10px;
-}
-
-.form-contact button {
-  padding: 10px;
-  background-color: #000;
-  color: #fff;
-}
-
-.form-contact textarea {
-  padding: 15px;
-}
-
-.form-contact label {
-  padding: 6px;
-}
-
-.user {
-  width: 25px;
-  height: 25px;
-  margin-top: 4px;
-  margin-right: 5px;
-}
-/*----------------------------- Form Css ends ----------------------------*/
 
 /*----------------------------- tooltip Css start -----------------------*/
 .tooltip {
@@ -619,6 +546,26 @@ button {
   color: #8cc84b;
 }
 /*----------------------------- tooltip Css ends --------------------------*/
+
+/*---------------------------- Footer Css -------------------------------*/
+.footer-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo img{
+  width: 100px;
+  height: 100%;
+}
+
+.footer-social{
+  display: flex;
+  justify-content: center;
+}
+
+/*----------------------------Footer Css Ends ----------------------------*/
+
 
 /*------------------------- Media Query CSS Starts --------------------------------
 ----------------------------------------------------------------------------------*/
@@ -806,31 +753,4 @@ button {
   }
 }
 
-/*===================== form css ============================*/
-@media screen and (max-width: 600px) {
-  .form-container {
-    display: flex;
-    flex-direction: column;
-    padding-top: 20px;
-  }
 
-  .form-img img {
-    width: 160px;
-    height: 160px;
-  }
-}
-
-@media screen and (min-width: 600px) and (max-width: 950px) {
-  .form-container {
-    display: flex;
-    flex-direction: column;
-    padding-top: 20px;
-  }
-
-  .form-img img {
-    width: 250px;
-    height: 250px;
-  }
-}
-
-/*======================= form css ends ========================*/

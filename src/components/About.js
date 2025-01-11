@@ -1,7 +1,6 @@
-import linkedin from "../assets/images/linkedin.png";
-import instagram from "../assets/images//instagram.png";
-import twitter from "../assets/images/twitter.png";
-import gmail from "../assets/images/gmail.png";
+import linkedin from "../assets/images/linkedin-light.png";
+import twitter from "../assets/images/twitter-light.png";
+import gmail from "../assets/images/email-light.png";
 import resume from "../assets/images/resume.png";
 import SocialIcons from "./SocialIcons.js";
 import coderboyimage from "../assets/images/coder-imgae-bg.png";
@@ -22,11 +21,6 @@ const About = ({ imgUrl, theme }) => {
                 link="https://www.linkedin.com/in/shushind/"
                 imgUrl={linkedin}
                 altos="Linkdin"
-              />
-              <SocialIcons
-                link="https://www.instagram.com/_shubu_s/"
-                imgUrl={instagram}
-                altos="instagram"
               />
               <SocialIcons
                 link="https://x.com/i/flow/login"

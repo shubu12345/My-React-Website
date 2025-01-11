@@ -10,7 +10,7 @@ import About from "./About.js";
 import Work from "./Work.js";
 import Title from "./Title.js";
 import Support from "./Support.js";
-import Form from "./Form.js";
+import Footer from "./Footer.js";
 
 const Home = ({ theme }) => {
   return (
@@ -44,7 +44,8 @@ const Home = ({ theme }) => {
         l4="#Figma"
         imgUrl={project1}
       />
-      <Form />
+      <Footer theme={theme} />
+      {/* <Form /> */}
     </>
   );
 };
