@@ -3,7 +3,7 @@ import "../Styles.css";
 // import airoplne from "../assets/images/plane.gif";
 import airoplaneNight from "../assets/images/plane-night.gif";
 import ss from "../assets/images/profile.png";
-import project2 from "../assets/images/project2.png";
+import track from "../assets/images/tracker.png";
 import About from "./About.js";
 // import Work from "./Work.js";
 import Title from "./Title.js";
@@ -21,7 +21,7 @@ const Home = ({ theme }) => {
       {/* <Download imgUrl={resume}/> */}
       <Title />
       <Project1 />
-      <Support id="p2" imgUrl={project2} />
+      <Support id="p2" imgUrl={track} />
       <Project2 />
       <Footer theme={theme} />
       {/* <Form /> */}
