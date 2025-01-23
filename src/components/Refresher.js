@@ -1,10 +1,13 @@
 import React from "react";
 import "./refresh.css";
-import anim from "../assets/images/ss-logo.png";
+import loading from "../assets/images/computer.gif";
 export default function Refresher() {
   return (
-    <div className="refresher-container">
-      <img src={anim} alt="" />
-    </div>
+    <>
+      <div className="refresher-container">
+        <img className="computer" src={loading} alt="loading" />
+      </div>
+      <div className="overlay"></div>
+    </>
   );
 }

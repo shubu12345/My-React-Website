@@ -1,11 +1,10 @@
 import React, { lazy, Suspense } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-// import App from "./App.js";
 import reportWebVitals from "./reportWebVitals.js";
 import Refresher from "./components/Refresher.js";
 
-const App = lazy(() => wait(2000).then(() => import("./App.js")));
+const App = lazy(() => wait(4000).then(() => import("./App.js")));
 
 const wait = (time) => {
   return new Promise((resolve) => {
