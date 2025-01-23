@@ -1,13 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App.js';
-import reportWebVitals from './reportWebVitals.js';
+import React, { lazy, Suspense } from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+// import App from "./App.js";
+import reportWebVitals from "./reportWebVitals.js";
+import Refresher from "./components/Refresher.js";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const App = lazy(() => wait(2000).then(() => import("./App.js")));
+
+const wait = (time) => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve();
+    }, time);
+  });
+};
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Suspense fallback={<Refresher />}>
+      <App />
+    </Suspense>
   </React.StrictMode>
 );
 

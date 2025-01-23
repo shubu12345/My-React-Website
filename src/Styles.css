@@ -277,8 +277,6 @@
   margin-right: 25px;
 }
 
-
-
 /*------------------------------Popup styling ends --------------------------*/
 
 /*---------------------------- Download Css ------------------------------*/
@@ -401,7 +399,6 @@ ul li {
 }
 
 /*----------------------------- Latest Work Css ends ----------------------------*/
-
 
 /*----------------------------- tooltip Css start -----------------------*/
 .tooltip {
@@ -551,24 +548,23 @@ ul li {
 /*----------------------------- tooltip Css ends --------------------------*/
 
 /*---------------------------- Footer Css -------------------------------*/
-.footer-logo{
+.footer-logo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.footer-logo img{
+.footer-logo img {
   width: 100px;
   height: 100%;
 }
 
-.footer-social{
+.footer-social {
   display: flex;
   justify-content: center;
 }
 
 /*----------------------------Footer Css Ends ----------------------------*/
-
 
 /*------------------------- Media Query CSS Starts --------------------------------
 ----------------------------------------------------------------------------------*/
@@ -755,5 +751,3 @@ ul li {
     margin-right: 0;
   }
 }
-
-
