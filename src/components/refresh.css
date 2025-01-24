@@ -57,8 +57,8 @@
 
 @media screen and (max-width: 600px) {
   .computer {
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
     padding: 10px;
   }
 }
